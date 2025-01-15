@@ -1,15 +1,15 @@
 class Tcolor < Formula
   desc "Displays ANSI colors on the terminal"
   homepage "https://github.com/davidledwards/tcolor"
-  version "0.1.0"
+  version "0.2.0"
 
   if OS.linux? || OS.mac?
     if Hardware::CPU.intel?
       url "https://github.com/davidledwards/tcolor/releases/download/v" + version + "/tcolor-" + version + "-x86_64-unix.tar.gz"
-      sha256 "1aa009329df70d37a6b67f8d2a6bb3b27c601021bca7c68e72556d3623c868aa"
+      sha256 "0dec4bb6996095152d614e016cb4de464a7ce0be53f8f30373b83ffd24ab6c68"
     elsif Hardware::CPU::arm?
       url "https://github.com/davidledwards/tcolor/releases/download/v" + version + "/tcolor-" + version + "-aarch64-unix.tar.gz"
-      sha256 "f1d2fc401f065e99901811e23f18d8cb792ec363703089f49d6f1dc03b2a86f7"
+      sha256 "867c211540ed407cc5c6c3a7c9ad2f96d85180b08f498f2e27ec5da1cf2308b7"
     end
   end
 
