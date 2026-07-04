@@ -2,7 +2,7 @@ class Tcolor < Formula
   desc "Displays ANSI colors on the terminal"
   homepage "https://github.com/davidledwards/tcolor"
   version "0.4.0"
-  url_prefix = "https://github.com/davidledwards/tcolor/releases/download/v#{version}/keyb-#{version}"
+  url_prefix = "https://github.com/davidledwards/tcolor/releases/download/v#{version}/tcolor-#{version}"
 
   on_macos do
     on_arm do
